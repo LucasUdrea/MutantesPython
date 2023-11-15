@@ -16,7 +16,7 @@ El desafío de detectar mutantes a partir de una secuencia de ADN [6x6] fue abor
 
 - **Minimización de Chequeos:** Para ser lo más eficiente posible, cada función verifica primero los caracteres en los extremos de una posible secuencia mutante antes de examinar los caracteres intermedios. Esta aproximación reduce significativamente el número de comparaciones necesarias para identificar una secuencia mutante.
 - **Funciones Específicas:** Se utilizaron cuatro funciones principales (`check_horizontal`, `check_vertical`, `check_diagonal`, `check_anti_diagonal`) para analizar la matriz de ADN. Cada una de estas funciones está diseñada para buscar secuencias mutantes en su respectiva orientación, contribuyendo de manera integral a la detección precisa de mutantes.
-- **Manejo de Errores y Validaciones:** El programa también incluye mecanismos para validar las entradas de ADN, asegurándose de que cumplan con los criterios establecidos (longitud y caracteres permitidos) y manejar adecuadamente cualquier error o entrada inválida.
+- **Manejo de Errores, Validaciones y Pruebas:** El programa también incluye mecanismos para validar las entradas de ADN, asegurándose de que cumplan con los criterios establecidos (longitud y caracteres permitidos) y manejar adecuadamente cualquier error o entrada inválida. Además de incluir un caso de prueba positivo y uno negativo para corroborar el correcto funcionamiento del programa.
 
 ## Cómo correrlo
 
